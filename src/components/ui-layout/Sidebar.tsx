@@ -13,7 +13,7 @@ const Sidebar = () => {
     <div
       className={cn(
         "max-lg:bg-white w-52 xl:w-60 shrink-0 h-full overflow-y-auto overflow-x-hidden border-r border-r-neutral-200 z-50",
-        isOpenSidebar ? "max-lg:flex max-lg:flex-col max-lg:absolute max-lg:top-0 max-lg:left-14 max-lg:pt-14 max-lg:z-10" : "max-lg:hidden"
+        isOpenSidebar ? "max-lg:flex max-lg:flex-col max-lg:absolute max-lg:top-0 max-lg:left-12 max-lg:pt-12 max-lg:z-10" : "max-lg:hidden"
       )}
     >
       <div className="flex flex-col p-2 xl:p-5">
