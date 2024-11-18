@@ -24,14 +24,14 @@ const CreateQuestCard = ({ className, selectedCategory, onFormSubmit, onCancel }
   return (
     <form
       className={cn(
-        "relative p-2 lg:p-5 flex flex-col border border-primary-200 bg-primary-50 rounded-lg h-44 lg:h-[300px] col-span-2 xl:col-span-1",
+        "relative p-2 lg:p-5 flex flex-col border border-primary-200 bg-white rounded-lg h-44 lg:h-[300px] col-span-2 xl:col-span-1",
         className
       )}
       onSubmit={handleSubmitForm}
     >
       <div className="flex-[1_1_auto] min-h-0 flex-col flex">
-        <input className="mb-3 font-[500] text-neutral-900" placeholder="Enter Name *..." {...register("name", { required: true })} />
-        <input className="text-neutral-700 text-sm" placeholder="Enter Description..." {...register("desc", { required: false })} />
+        <input className="mb-3 font-[500] text-neutral-900 placeholder:text-neutral-600" placeholder="Enter Name *..." {...register("name", { required: true })} />
+        <input className="text-neutral-700 text-sm placeholder:text-neutral-500" placeholder="Enter Description..." {...register("desc", { required: false })} />
       </div>
       <div className="flex items-center justify-between">
         <div className="flex-center space-x-2">
