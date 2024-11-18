@@ -1,7 +1,7 @@
 import React from "react";
-import StatusAvatar from "../ui-avatar/StatusAvatar";
-import { useStoreActions, useStoreState } from "../../contexts/app-store";
 import { PanelLeftCloseSvg, PanelLeftOpenSvg } from "../../assets";
+import { useStoreActions, useStoreState } from "../../contexts/app-store";
+import StatusAvatar from "../ui-avatar/StatusAvatar";
 
 type TSideActiveListProps = { children?: React.ReactNode };
 
@@ -18,6 +18,7 @@ const SideActiveList = ({ children }: TSideActiveListProps) => {
         <div className="h-0.5 rounded bg-neutral-200 w-9"></div>
 
         <StatusAvatar src="https://s3-alpha-sig.figma.com/img/fd86/d94f/4e94b328c3f9ad7ea5bcbf1e8c71d9b0?Expires=1733097600&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=qXIHUSoZSN3siBCh76OSDW55NgBtkjNTKZmNXYzUJj2lLh3SXhX~vL9PaQQIFNL1NxuTTCGjsnUD3lnsmL3ciWKzC~lxHweydtJPaDCU~ZQ9i-cCRQIVkGUM3VZAQBtA~zcaSkS7Zd5kkuFYJTmRsfMH5e1yKvux6pdr~csxvZ1hEA312MTZShhbxqjkZ04s096Noq2fZPzhUfguBMa3kxM0XOPfTt1TCcXBShJM6O7Z2vkj4ZNfoujx1TcPN1x7Fou5ojlb8zz3Mjts3IUz4~v7oaKOztaOMwBJSUGN48xTfsBunM4zCAQeJMVv2ISpddef6MG0lgX8na0Le35-cQ__" />
+
         <StatusAvatar
           status="offline"
           src="https://s3-alpha-sig.figma.com/img/ead6/3c6b/f570dd1b4dad944cb679e75feb1b9355?Expires=1733097600&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=IfMjOjXCpSaWkoc~-dXR0IEMZsdiUPOFg57DpNwlR~-aBu8RhvRbWbaNbHRq4ObauPgCSJUyskFZszx5Qe3gyBrPDyHz~A5i6A4sFnfX180FDM5k6UW2DiRWMhHnm6daPdX-y5tvAoMmLO-r3WJu8p~WVJp1vOfbM7MdgV3Kbdo2vf0DRjQ3yEKb12aEIUdfPBAbB1n2LNsOjSBblWART3Lq~KX8eU0ZrHP2wlxUmRLzrFDLoXk-0AG7trjv8scdlKn5KmKqGIrYLn7cMYcQtA1h2lq3BJVBkxPaGEObLQBtyDLYME5lz~dRNq4zwQT4mtSIYFPZ0KLTdz~wWNqOMw__"

@@ -1,15 +1,13 @@
 import { ChatSvg, GiftSvg, LogoSvg, LogoTextSvg } from "../../assets";
-import { useStoreActions } from "../../contexts/app-store";
 import { cn } from "../../utils/utils";
 import Image from "../ui/Image";
 
 type THeaderProps = { className?: string };
 
 const Header = ({ className }: THeaderProps) => {
-  const toggleSidebar = useStoreActions((a) => a.toggleSidebar);
   return (
     <header className={cn("w-dvw bg-white border-b border-neutral-200", className)}>
-      <div className="mx-auto h-14 xl:h-16 w-full flex items-center gap-x-6 px-5">
+      <div className="mx-auto h-12 lg:h-14 xl:h-16 w-full flex items-center gap-x-6 px-5">
         <div className="flex items-center">
           <LogoSvg className="size-6" />
           <LogoTextSvg className="w-[58px] h-[11px]" />

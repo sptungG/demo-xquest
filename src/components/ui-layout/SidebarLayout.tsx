@@ -11,7 +11,7 @@ const SidebarLayout = ({ children }: TSidebarLayoutProps) => {
     <>
       <Header className="fixed z-50" />
 
-      <main className="h-dvh pt-14 xl:pt-16 flex relative">
+      <main className="h-dvh pt-12 lg:pt-14 xl:pt-16 flex relative">
         <SideActiveList />
         <Sidebar />
         <div className="h-full overflow-y-auto overflow-x-hidden flex-[1_1_auto] min-w-0">
