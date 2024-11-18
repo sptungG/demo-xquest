@@ -13,7 +13,7 @@ Ngô Việt Tùng - _sptungG_
 2. Mobile
 
 - ![Mobile-Quest](https://res.cloudinary.com/ngoviettung154/image/upload/v1731915938/_demo/xquest/7b781572-6696-41cb-bccf-8fc7a51af136.png)
-- ![Mobile-Quest](https://res.cloudinary.com/ngoviettung154/image/upload/v1731915957/_demo/xquest/2b31c63d-4bb6-43ab-9ff8-39020a8c5de8.png)
+- ![Mobile-Quest](https://res.cloudinary.com/ngoviettung154/image/upload/v1731916796/_demo/xquest/2b31c63d-4bb6-43ab-9ff8-39020a8c5de8.png)
 - ![Mobile-Quest](https://res.cloudinary.com/ngoviettung154/image/upload/v1731915988/_demo/xquest/a7bbaabf-3c97-4bae-812c-e5ff95972f2e.png)
 
 
