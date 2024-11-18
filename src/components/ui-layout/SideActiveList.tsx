@@ -38,9 +38,9 @@ const SideActiveList = ({ children }: TSideActiveListProps) => {
         />
       </div>
 
-      <div className="h-0.5 rounded bg-neutral-200 w-9 mt-auto"></div>
+      <div className="h-0.5 rounded bg-neutral-200 w-9 mt-auto lg:hidden"></div>
 
-      <button className="w-14 xl:w-20 py-4 flex items-center justify-center sticky bottom-0" onClick={() => toggleSidebar()}>
+      <button className="w-14 xl:w-20 py-4 flex items-center justify-center sticky bottom-0 lg:hidden" onClick={() => toggleSidebar()}>
         {isOpenSidebar ? <PanelLeftCloseSvg className="size-6" /> : <PanelLeftOpenSvg className="size-6" />}
       </button>
     </div>
